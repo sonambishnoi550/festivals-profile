@@ -1,0 +1,81 @@
+:root {
+    /*-----------------------------font-size------------------------*/
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-lg: 16px;
+    --fs-2lg: 20px;
+    --fs-xl: 26px;
+    --fs-xxl: 48px;
+}
+/* font size */
+.event{
+    font-size: var(--fs-xl);
+}
+.home{
+    font-size: var(--fs-lg);
+}
+.btn{
+    font-size: var(--fs-lg);
+}
+.user{
+    font-size: var(--fs-lg);
+}
+.name{
+    font-size: var(--fs-xxl);
+}
+.unshow{
+    font-size: var(--fs-lg);
+}
+.show {
+    font-size: var(--fs-lg);
+}
+.user-text {
+    font-size: var(--fs-lg);
+}
+.location {
+    font-size: var(--fs-lg);
+}
+.svg-text {
+    font-size: var(--fs-lg);
+}
+.gallery {
+    font-size: var(--fs-xxl);
+}
+.tell-text {
+    font-size: var(--fs-lg);
+}
+.postbtn {
+    font-size: var(--fs-2lg);
+}
+.username {
+    font-size: var(--fs-lg);
+}
+.user-comment {
+    font-size: var(--fs-lg);
+}
+.comment {
+    font-size: var(--fs-2lg);
+}
+.Remove {
+    font-size: var(--fs-lg);
+}
+.f-text {
+    font-size: var(--fs-md);
+}
+.more1 {
+    font-size: var(--fs-sm);
+}
+.company {
+    font-size: var(--fs-md);
+}
+.gallery1{
+    font-size: var(--fs-md);
+}
+
+
+@media(min-width:576px) {
+    :root {
+        --fs-xl: 36px;
+    }
+}
+
