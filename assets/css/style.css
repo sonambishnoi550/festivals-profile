@@ -47,6 +47,16 @@
 .w-100 {
     width: 100%;
 }
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
 /* -------------comman class end ----------------------- */
 /*----------------- header---------------------- */
 .gap-60 {
@@ -104,21 +114,6 @@ header {
 .pt-100 {
     padding-top: 100px;
 }
-
-/* ------------------hero section end ----------------- */
-
-.col-4 {
-    width: 33.33%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.col-8 {
-    width: 66.66%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
 .user {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -127,10 +122,6 @@ header {
     text-align: left;
     color: #666666;
 }
-
-
-
-
 .name {
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
@@ -141,7 +132,6 @@ header {
     margin-right: 80px;
     white-space: nowrap;
 }
-
 .unshow {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -172,7 +162,6 @@ header {
     width: 100%;
     padding-top: 29px;
 }
-
 .location {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -182,7 +171,6 @@ header {
     color: #666666;
     padding-left: 8px;
 }
-
 .pt-38 {
     padding-top: 38px;
 }
@@ -190,12 +178,9 @@ header {
 .gap-35 {
     gap: 35px;
 }
+/* ------------------hero section end ----------------- */
 
-.col-6 {
-    width: 50%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
+/* ----------------svg section-------------------- */
 
 .svg-text {
     font-family: 'Poppins', sans-serif;
@@ -206,18 +191,14 @@ header {
     color: #666666;
     padding-top: 22px;
 }
-
 .position-a {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.pt-50 {
-    padding-top: 50px;
-}
-
+/* -----------------------svg section end ------------------- */
+/* ------------------gallery section --------------------- */
 .line-1 {
     width: 99px;
     background: #2C49FE;
@@ -238,140 +219,12 @@ header {
     text-align: center;
     color: #000000;
 }
-
-.col-12 {
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
 .pt-65 {
     padding-top: 65px;
 }
-
-.tell-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    color: #666666;
-    max-width: 719px;
-    margin: auto;
-    padding-top: 16px;
-    padding-bottom: 45px;
+.pb-77 {
+    padding-bottom: 77px;
 }
-
-.border {
-    border: 2px solid #9CA1BE;
-    border-radius: 50px;
-    background-color: white;
-    padding: 5px 9px;
-    width: 100%;
-}
-
-.comment {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    color: #666666;
-    padding: 20px;
-    outline: none;
-    border: none;
-}
-
-.postbtn {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: left;
-    color: #FFFFFF;
-    background-color: #2C49FE;
-    border-radius: 100px;
-    border: 2px solid #2C49FE;
-    padding: 13px 30px;
-    white-space: nowrap;
-    cursor: pointer;
-}
-
-.userbox {
-    width: 100%;
-    background-color: #F1F2F5;
-    margin-left: 20px;
-    border-radius: 0px 20px 20px 20px;
-    padding: 14px 20px;
-}
-
-.profile {
-    max-width: 56px;
-    height: 56px;
-}
-
-.mt-47 {
-    margin-top: 47px;
-}
-
-.mt-24 {
-    margin-top: 24px;
-}
-
-.username {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    color: #000000;
-    padding-top: 14px;
-    padding-bottom: 10px;
-}
-
-.user-comment {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #666666;
-    padding-bottom: 20px;
-}
-
-.ml-96 {
-    margin-left: 96px;
-}
-
-.mt-8 {
-    margin-top: 8px;
-}
-
-.Remove {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #666666;
-    padding-left: 5px;
-    white-space: nowrap;
-    cursor: pointer;
-}
-
-.pb-100 {
-    padding-bottom: 100px;
-}
-
-.pt-50 {
-    padding-top: 50px;
-}
-
-.m-10 {
-    margin: 8px 0px 7px 8px;
-}
-
-/* ----------------section 3 start--------------------- */
 .grid-box {
     display: grid;
     grid-template-columns: auto;
@@ -424,9 +277,130 @@ header {
     transform: scale(1.2);
 }
 
-.pb-77 {
-    padding-bottom: 77px;
+/* ------------------gallery section  end --------------------- */
+/* ------------------tell us section  end --------------------- */
+.pt-50 {
+    padding-top: 50px;
 }
+.pb-100 {
+    padding-bottom: 100px;
+}
+.tell-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    max-width: 719px;
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 45px;
+}
+.border {
+    border: 2px solid #9CA1BE;
+    border-radius: 50px;
+    background-color: white;
+    padding: 5px 9px;
+    width: 100%;
+}
+.comment {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #666666;
+    padding: 20px;
+    outline: none;
+    border: none;
+}
+
+.postbtn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #2C49FE;
+    border-radius: 100px;
+    border: 2px solid #2C49FE;
+    padding: 13px 30px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.m-10 {
+    margin: 8px 0px 7px 8px;
+}
+.profile {
+    max-width: 56px;
+    height: 56px;
+}
+.userbox {
+    width: 100%;
+    background-color: #F1F2F5;
+    margin-left: 20px;
+    border-radius: 0px 20px 20px 20px;
+    padding: 14px 20px;
+}
+.username {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+.user-comment {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+    padding-bottom: 20px;
+}
+.mt-47 {
+    margin-top: 47px;
+}
+.mt-24 {
+    margin-top: 24px;
+}
+
+.ml-96 {
+    margin-left: 96px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+/* ------------------tell us section  end --------------------- */
+
+
+
+.Remove {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+    padding-left: 5px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+
+/* ----------------section 3 start--------------------- */
+
 
 /*-------------footer-start--------------------*/
 .backg-black {
@@ -557,11 +531,7 @@ footer ul li:not(:first-child) a {
 
 /*--------------footer end ---------------*/
 
-.col-12 {
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
+
 
 /*-------------responsive start------------------*/
 
