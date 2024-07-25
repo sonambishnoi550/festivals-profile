@@ -23,6 +23,7 @@
     margin-left: -12px;
     margin-right: -12px;
 }
+/* --------------------comman class----------------------- */
 
 .d-flex {
     display: flex;
@@ -36,10 +37,6 @@
     justify-content: space-between;
 }
 
-.gap-60 {
-    gap: 60px;
-}
-
 .position-relative {
     position: relative;
 }
@@ -47,24 +44,18 @@
 .justify-content-center {
     justify-content: center;
 }
-
-.home {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #000000;
+.w-100 {
+    width: 100%;
 }
-
-.home:hover {
-    color: blue;
+/* -------------comman class end ----------------------- */
+/*----------------- header---------------------- */
+.gap-60 {
+    gap: 60px;
 }
-
 .py-20 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .event {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -76,7 +67,17 @@
 .free {
     color: #01C8FF;
 }
+.home {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
 
+.home:hover {
+    color: blue;
+}
 .btn {
     border-radius: 50px;
     border: 2px solid #2C49FE;
@@ -98,6 +99,13 @@ header {
     background-color: white;
     box-shadow: 0px 8px 35px 0px #0000000D;
 }
+/*----------------- header end---------------------- */
+/* ------------------hero section ----------------- */
+.pt-100 {
+    padding-top: 100px;
+}
+
+/* ------------------hero section end ----------------- */
 
 .col-4 {
     width: 33.33%;
@@ -120,13 +128,8 @@ header {
     color: #666666;
 }
 
-.pt-100 {
-    padding-top: 100px;
-}
 
-.w-100 {
-    width: 100%;
-}
+
 
 .name {
     font-family: 'Poppins', sans-serif;
