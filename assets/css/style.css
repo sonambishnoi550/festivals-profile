@@ -378,10 +378,6 @@ header {
 .mt-8 {
     margin-top: 8px;
 }
-/* ------------------tell us section  end --------------------- */
-
-
-
 .Remove {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -393,15 +389,7 @@ header {
     white-space: nowrap;
     cursor: pointer;
 }
-
-.pt-50 {
-    padding-top: 50px;
-}
-
-
-/* ----------------section 3 start--------------------- */
-
-
+/* ------------------tell us section  end --------------------- */
 /*-------------footer-start--------------------*/
 .backg-black {
     background: #000000;
@@ -422,34 +410,6 @@ header {
     gap: 15px;
 }
 
-.col-5 {
-    width: 41.66%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.col-7 {
-    width: 58.33%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.col-3 {
-    width: 25%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-footer ul li:first-child {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    line-height: 21px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
 footer ul li:not(:first-child) a {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -459,6 +419,10 @@ footer ul li:not(:first-child) a {
     display: inline-block;
     margin-bottom: 8px;
     position: relative;
+}
+
+.py-100 {
+    padding-top: 100px;
 }
 
 .gallery1 {
@@ -472,7 +436,6 @@ footer ul li:not(:first-child) a {
 }
 
 .more1 {
-
     height: 100%;
     background: #2D3CAE87;
     font-family: "Poppins", sans-serif;
@@ -485,10 +448,6 @@ footer ul li:not(:first-child) a {
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-
-.mb-24 {
-    margin-bottom: 24px;
 }
 
 .company {
@@ -519,7 +478,6 @@ footer ul li:not(:first-child) a {
     background-color: white;
 }
 
-
 .dark:hover::after {
     width: 100%;
     left: 0;
@@ -527,6 +485,19 @@ footer ul li:not(:first-child) a {
 
 .dark:hover {
     color: #01C8FF;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.mb-24{
+    margin-bottom: 24px;
 }
 
 /*--------------footer end ---------------*/
